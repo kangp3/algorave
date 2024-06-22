@@ -188,7 +188,6 @@ live_loop :backbeat, sync: :put_the_kick_on_the_20ft_track do
   in_thread do
     ##| sample "#{ROOT_DIR}/ym.wav"
     ##| sleep 4
-    ##| sample "#{ROOT_DIR}/ym.wav"
   end
   
   in_thread do
