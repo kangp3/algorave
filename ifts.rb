@@ -171,7 +171,9 @@ live_loop :backbeat, sync: :put_the_kick_on_the_20ft_track do
   ##| cue :start_melod
   
   in_thread do
-    ##| sample "#{ROOT_DIR}/fatbeat.wav", amp: 8
+    ##| with_fx :reverb do
+    ##|   sample "#{ROOT_DIR}/fatbeat.wav", amp: 8
+    ##| end
   end
   
   in_thread do
